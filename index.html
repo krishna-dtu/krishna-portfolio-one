@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Krishna Joshi - Software Development Engineer | DSA, System Design, Backend Architecture">
+    <title>Krishna Joshi | Software Development Engineer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">KJ</a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link contact-btn">Let's Talk</a></li>
+            </ul>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <!-- Animated particles -->
+        <div class="particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="availability">
+                        <span class="status-dot"></span>
+                        <span>Available for opportunities</span>
+                    </div>
+                    <h1 class="hero-title">
+                        Krishna Joshi
+                        <br>
+                        <span class="gradient-text">Software</span>
+                        <span class="typed-text"></span>
+                        <span class="cursor">|</span>
+                    </h1>
+                    <p class="hero-description">
+                        Software Development Engineer specializing in building scalable systems,
+                        solving algorithmic challenges, and architecting production-grade applications.
+                        From custom HTTP servers in C++ to AI-powered platforms — I engineer solutions that scale.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            View My Work
+                        </a>
+                        <a href="Krishna_Joshi_Resume.pdf" download class="btn btn-secondary">
+                            <i class="fas fa-file-download"></i> Download Resume
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            Get In Touch
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="mailto:joshikrishna2125@gmail.com" aria-label="Email" target="_blank">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://github.com/krishnajoshi" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/krishnajoshi" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <img src="profile.jpg" alt="Krishna Joshi" class="profile-photo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-label">
+                <span class="line"></span>
+                <span class="text">WHO I AM</span>
+            </div>
+            <h2 class="section-title">
+                Building Digital<br>
+                Experiences That Scale
+            </h2>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a <strong>Computer Science student at Delhi Technological University</strong>
+                        with a strong foundation in <strong>Data Structures, Algorithms, Operating Systems,
+                        and System Design</strong>. Currently working as a Software Engineering Intern at Webdesino,
+                        where I architect and build production systems.
+                    </p>
+                    <p>
+                        My expertise spans <strong>low-level programming (C++, TCP/IP, HTTP protocols)</strong> to
+                        <strong>high-level system architecture (microservices, REST APIs, databases)</strong>.
+                        I don't just write code — I solve problems, optimize performance, and build systems that scale.
+                        From <strong>custom HTTP servers</strong> to <strong>AI-powered platforms</strong>, I thrive on
+                        technical challenges.
+                    </p>
+                    <div class="about-buttons" style="margin-top: 30px;">
+                        <a href="Krishna_Joshi_Resume.pdf" download class="btn btn-primary">
+                            <i class="fas fa-file-download"></i> Download Resume
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <h3 class="stat-number">7.84</h3>
+                        <p>GPA</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="stat-number">5+</h3>
+                        <p>Internships</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="stat-number">15+</h3>
+                        <p>Projects</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="stat-number">4</h3>
+                        <p>Awards</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <div class="section-label">
+                <span class="line"></span>
+                <span class="text">MY JOURNEY</span>
+            </div>
+            <h2 class="section-title">
+                Professional<br>
+                Experience
+            </h2>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-badge">2026</div>
+                    <div class="timeline-content">
+                        <h3>Software Engineering Intern</h3>
+                        <h4>Webdesino • Remote</h4>
+                        <span class="timeline-date">Feb 2026 - May 2026</span>
+                        <p>
+                            Built and deployed a full-stack CMS platform for a legal services firm, enabling content
+                            management and administration of 100s of customer enquiries. Engineered business-critical
+                            e-commerce workflows including Shiprocket integration, payment processing, and multi-currency
+                            support for a B2B/B2C apparel platform.
+                        </p>
+                        <div class="tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>Shiprocket API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-badge">2026</div>
+                    <div class="timeline-content">
+                        <h3>Web Developer</h3>
+                        <h4>FocusDesk (Startup) • Remote</h4>
+                        <span class="timeline-date">Jan 2026 - Feb 2026</span>
+                        <p>
+                            Built and deployed full-stack QR access control system using React, Node.js, Express, and MongoDB.
+                            Engineered RESTful backend APIs with JWT-based QR authentication, Firebase Admin verification,
+                            and dynamic QR validation with attendance logging.
+                        </p>
+                        <div class="tags">
+                            <span>React</span>
+                            <span>Express</span>
+                            <span>JWT</span>
+                            <span>Firebase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-badge">2025</div>
+                    <div class="timeline-content">
+                        <h3>Backend Intern</h3>
+                        <h4>ProgrammingKnowledge • Remote</h4>
+                        <span class="timeline-date">Jan 2025 - Jun 2025</span>
+                        <p>
+                            Built backend systems using Python, Django, and Django REST Framework, including REST APIs,
+                            authentication, CRUD flows, and database integration. Backend content reached 25K+ views,
+                            demonstrating practical understanding of scalable backend development.
+                        </p>
+                        <div class="tags">
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>REST API</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <div class="section-label">
+                <span class="line"></span>
+                <span class="text">FEATURED WORK</span>
+            </div>
+            <h2 class="section-title">
+                Projects That<br>
+                Solve Real Problems
+            </h2>
+
+            <div class="projects-grid">
+                <!-- Smart Waste Bin -->
+                <div class="project-card glass-card featured-project">
+                    <span class="featured-badge">⭐ Featured</span>
+                    <div class="project-header">
+                        <h3>Smart Waste Bin Monitoring System</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/krishnajoshi" target="_blank" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        <strong>Built a custom HTTP backend from scratch in C++</strong> using low-level TCP sockets 
+                        for real-time monitoring. Designed modular OOP architecture with custom HTTP request parsing, 
+                        routing engine, and response handling — demonstrating deep understanding of networking protocols 
+                        and systems programming.
+                    </p>
+                    <div class="tags">
+                        <span>C++</span>
+                        <span>TCP Sockets</span>
+                        <span>HTTP Protocol</span>
+                        <span>OOP</span>
+                        <span>Systems Programming</span>
+                    </div>
+                    <div class="project-date">Dec 2025</div>
+                </div>
+
+                <!-- Tatva Game -->
+                <div class="project-card glass-card">
+                    <div class="project-header">
+                        <h3>Tatva – Gamified Space Adventure</h3>
+                        <div class="project-links">
+                            <a href="https://youtube.com" target="_blank" aria-label="Demo">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="https://github.com/krishnajoshi" target="_blank" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        AI-powered educational game with integrated chatbot using Gemini API and Web Speech API.
+                        Real-time leaderboard, teacher dashboard, and cross-platform mobile deployment.
+                    </p>
+                    <div class="tags">
+                        <span>Next.js</span>
+                        <span>TypeScript</span>
+                        <span>Supabase</span>
+                        <span>Gemini API</span>
+                        <span>Capacitor</span>
+                    </div>
+                    <div class="project-date">Aug 2025</div>
+                </div>
+
+                <!-- CMS Platform - Hidden as no GitHub link is added yet
+                <div class="project-card glass-card">
+                    <div class="project-header">
+                        <h3>Legal Services CMS Platform</h3>
+                        <div class="project-links">
+                            <a href="#" aria-label="Private">
+                                <i class="fas fa-lock"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Full-stack content management system for legal firm enabling content management, lead handling,
+                        and administration of 100s of customer enquiries with role-based access control.
+                    </p>
+                    <div class="tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>MongoDB</span>
+                        <span>JWT</span>
+                    </div>
+                    <div class="project-date">2026</div>
+                </div>
+                -->
+
+                <!-- E-commerce Platform - Hidden as no GitHub link is added yet
+                <div class="project-card glass-card">
+                    <div class="project-header">
+                        <h3>B2B/B2C Apparel E-commerce</h3>
+                        <div class="project-links">
+                            <a href="#" aria-label="Private">
+                                <i class="fas fa-lock"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Business-critical e-commerce workflows with Shiprocket integration, payment processing,
+                        inventory validation, invoice generation, and multi-currency support.
+                    </p>
+                    <div class="tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>Shiprocket</span>
+                        <span>Payment Gateway</span>
+                        <span>Multi-currency</span>
+                    </div>
+                    <div class="project-date">2026</div>
+                </div>
+                -->
+
+                <!-- QR Access Control - Hidden as no GitHub link is added yet
+                <div class="project-card glass-card">
+                    <div class="project-header">
+                        <h3>QR Access Control System</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/krishnajoshi" target="_blank" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Secure user onboarding and real-time access validation system with JWT-based QR authentication,
+                        Firebase Admin verification, and dynamic attendance logging.
+                    </p>
+                    <div class="tags">
+                        <span>React</span>
+                        <span>Express</span>
+                        <span>MongoDB</span>
+                        <span>Firebase</span>
+                        <span>JWT</span>
+                    </div>
+                    <div class="project-date">Jan 2026</div>
+                </div>
+                -->
+
+                <!-- Employee Portal - Hidden as no GitHub link is added yet
+                <div class="project-card glass-card">
+                    <div class="project-header">
+                        <h3>Employee Management Portal</h3>
+                        <div class="project-links">
+                            <a href="#" aria-label="Private">
+                                <i class="fas fa-lock"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Designed and developed from scratch to streamline internal workforce operations and
+                        administrative workflows with role-based permissions and dashboard analytics.
+                    </p>
+                    <div class="tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>MongoDB</span>
+                        <span>Charts</span>
+                    </div>
+                    <div class="project-date">2026</div>
+                </div>
+                -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <div class="section-label">
+                <span class="line"></span>
+                <span class="text">TECHNICAL EXPERTISE</span>
+            </div>
+            <h2 class="section-title">
+                Technologies &<br>
+                Tools I Master
+            </h2>
+
+            <div class="skills-grid">
+                <!-- Core CS Fundamentals -->
+                <div class="skill-category glass-card">
+                    <h3>Core CS & DSA</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Data Structures & Algorithms</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>System Design & Architecture</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Operating Systems & Networking</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Languages -->
+                <div class="skill-category glass-card">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>C++ (Systems Programming)</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>JavaScript / TypeScript</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend & Systems -->
+                <div class="skill-category glass-card">
+                    <h3>Backend & Infrastructure</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Node.js / Express</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Django / REST Framework</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>REST APIs / Microservices</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Databases & Tools -->
+                <div class="skill-category glass-card">
+                    <h3>Databases & DevOps</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>MongoDB / SQL / Supabase</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Firebase / Firestore</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Git / Docker / CI/CD</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frontend (Secondary) -->
+                <div class="skill-category glass-card">
+                    <h3>Frontend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>React / Next.js</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>TypeScript / Modern JS</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>TailwindCSS / Responsive Design</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AI/ML -->
+                <div class="skill-category glass-card">
+                    <h3>AI & Machine Learning</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Scikit-Learn / TensorFlow</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Pandas / NumPy</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Gemini API / LLM Integration</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Awards Section -->
+            <div class="awards-section">
+                <h3 class="awards-title">Honors & Awards</h3>
+                <div class="awards-grid">
+                    <div class="award-item glass-card">
+                        <i class="fas fa-trophy"></i>
+                        <h4>Smart India Hackathon 2025</h4>
+                        <p>Internal Round Winner, Finalist</p>
+                    </div>
+                    <div class="award-item glass-card">
+                        <i class="fas fa-award"></i>
+                        <h4>Google Cloud Arcade</h4>
+                        <p>Champion Milestone Achiever</p>
+                    </div>
+                    <div class="award-item glass-card">
+                        <i class="fas fa-medal"></i>
+                        <h4>CodeInTheDark Live Coding</h4>
+                        <p>Finalist - IEEE GTBIT</p>
+                    </div>
+                    <div class="award-item glass-card">
+                        <i class="fas fa-star"></i>
+                        <h4>Dell Aspire Scholar</h4>
+                        <p>Dell Scholar Cohort 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-label">
+                <span class="line"></span>
+                <span class="text">GET IN TOUCH</span>
+            </div>
+            <h2 class="section-title">
+                Let's Build<br>
+                Something Amazing
+            </h2>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p class="contact-intro">
+                        Looking for a Software Development Engineer who can architect scalable systems,
+                        optimize algorithms, and ship production-grade code? Let's connect and discuss
+                        how I can contribute to your team's success.
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:joshikrishna2125@gmail.com">joshikrishna2125@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+919911849809">+91 9911849809</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Delhi, India</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links-footer">
+                        <a href="mailto:joshikrishna2125@gmail.com" target="_blank" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://github.com/krishnajoshi" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/krishnajoshi" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form glass-card" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder=" ">
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder=" ">
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" required placeholder=" ">
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="6" required placeholder=" "></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        Send Message
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <h3>Krishna Joshi</h3>
+                    <p>Software Development Engineer | Building scalable systems, solving complex problems</p>
+                </div>
+                <div class="footer-right">
+                    <p>&copy; 2024 Krishna Joshi. All rights reserved.</p>
+                    <p>Designed & Built with <i class="fas fa-heart"></i> by Krishna</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
